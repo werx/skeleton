@@ -3,7 +3,7 @@
 /*
 # You can define a PEAR-style DSN string when using mysql:
 return [
-	'dsn' => 'mysql://root:root@localhost/toadsuck',
+	'dsn' => 'mysql://root:root@localhost/werx',
 ];
 */
 

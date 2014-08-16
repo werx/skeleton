@@ -1,6 +1,6 @@
 <?php
 /**
- * Replaces the default Toadsuck\Skeleton namespace with your own namespace.
+ * Replaces the default werx\Skeleton namespace with your own namespace.
  */
 
 if ($argc < 2) {
@@ -16,7 +16,7 @@ $double_slash = "\\\\";
 $namespace_escaped = str_replace($slash, $double_slash, $namespace);
 
 // Update composer.json (for autoloading)
-file_put_contents('./composer.json', str_replace('Toadsuck\\\\Skeleton', $namespace_escaped, file_get_contents('./composer.json')));
+file_put_contents('./composer.json', str_replace('werx\\\\Skeleton', $namespace_escaped, file_get_contents('./composer.json')));
 
 $paths = ['src','web'];
 
@@ -26,8 +26,8 @@ foreach ($paths as $p) {
 
 	foreach ($files as $f) {
 		$content = file_get_contents($f);
-		$content = str_replace('Toadsuck\Skeleton', $namespace, $content);
-		$content = str_replace('Toadsuck\\Skeleton', $namespace_escaped, $content);
+		$content = str_replace('werx\Skeleton', $namespace, $content);
+		$content = str_replace('werx\\Skeleton', $namespace_escaped, $content);
 		file_put_contents($f, $content);
 	}
 }

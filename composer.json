@@ -1,28 +1,28 @@
 {
-	"name": "toadsuck/skeleton",
-	"description": "Skeleton Application for Toadsuck",
-	"homepage": "https://github.com/toadsuck/toadsuck-skeleton",
+	"name": "werx/skeleton",
+	"description": "Skeleton Application for the Werx Project",
+	"homepage": "https://github.com/werx/skeleton",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Josh Moody",
-			"email": "jgmoody@gmail.com"
+			"email": "josh@moody.io"
 		}
 	],
 	"autoload": {
 		"psr-4": {
-			"Toadsuck\\Skeleton\\Tests\\": "tests/",
-			"Toadsuck\\Skeleton\\Controllers\\": "src/controllers/",
-			"Toadsuck\\Skeleton\\Entities\\": "src/entities/",
-			"Toadsuck\\Skeleton\\Managers\\": "src/managers/",
-			"Toadsuck\\Skeleton\\Models\\": "src/models/",
-			"Toadsuck\\Skeleton\\Utils\\": "src/utils/",
-			"Toadsuck\\Skeleton\\Validators\\": "src/validators/"
+			"werx\\Skeleton\\Tests\\": "tests/",
+			"werx\\Skeleton\\Controllers\\": "src/controllers/",
+			"werx\\Skeleton\\Entities\\": "src/entities/",
+			"werx\\Skeleton\\Managers\\": "src/managers/",
+			"werx\\Skeleton\\Models\\": "src/models/",
+			"werx\\Skeleton\\Utils\\": "src/utils/",
+			"werx\\Skeleton\\Validators\\": "src/validators/"
 		}
 	},
 	"require": {
 		"php": ">= 5.4",
-		"toadsuck/core": "dev-develop-2",
+		"werx/core": "dev-master",
 		"werx/validation": "dev-master"
 	},
 	"require-dev": {

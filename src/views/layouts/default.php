@@ -6,7 +6,7 @@
 		<meta name="author" content="">
 		<meta charset="utf-8">
 		
-		<title>Toadsuck Skeleton :: <?=$this->page_title;?></title>
+		<title>Werx Skeleton :: <?=$this->page_title;?></title>
 
 		<!-- Bootstrap -->
 		<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="<?=$this->uri('/')?>">Toadsuck Skeleton</a>
+				<a class="navbar-brand" href="<?=$this->uri('/')?>">Werx Skeleton</a>
 			</div>
 	
 			<div class="collapse navbar-collapse">

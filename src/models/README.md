@@ -7,7 +7,7 @@ Example:
 ``` php
 # File: src/models/Captain.php
 
-namespace Toadsuck\Skeleton\Models;
+namespace werx\Skeleton\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Toadsuck\Skeleton\Controllers;
+namespace werx\Skeleton\Controllers;
 
 use Illuminate\Database\Capsule\Manager as Model;
-use Toadsuck\Core\Controller;
-use Toadsuck\Core\Database as DB;
+use werx\Core\Controller;
+use werx\Core\Database as DB;
 
 class Home extends Controller
 {
@@ -16,7 +16,7 @@ class Home extends Controller
 		$this->template->layout('layouts/default');
 
 		// Set some variables for all views.
-		$this->template->page_title = 'Toadsuck Skeleton';
+		$this->template->page_title = 'Werx Skeleton';
 		
 		// Load our primary config file.
 		$this->config->load('config');
