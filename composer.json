@@ -22,9 +22,11 @@
 	},
 	"require": {
 		"php": ">= 5.4",
-		"werx/core": "dev-master",
-		"werx/validation": "dev-master"
+		"werx/core": "1.*",
+		"werx/validation": "1.*",
+        "werx/forms": "1.*"
 	},
+
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*",
 		"squizlabs/php_codesniffer": "1.*"
