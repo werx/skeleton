@@ -48,6 +48,7 @@
 		
 		<div class="row">
 			<div class="content">
+				<?=\werx\Messages\Messages::display();?>
 				<?=$this->child()?>
 			</div>
 		</div> <!--//row-->

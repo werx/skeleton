@@ -25,6 +25,9 @@ class Home extends Controller
 		// Load the messages library, passing in an instance of the session.
 		Messages::getInstance($this->session);
 
+		// Set the default decorator to twitter bootstrap.
+		Messages::setDecorator(new \werx\Messages\Decorators\Bootstrap);
+
 		// And our database config file.
 		#$this->config->load('database');
 		
@@ -34,6 +37,7 @@ class Home extends Controller
 	
 	public function index()
 	{
+		Messages::success('Werx Installation Successful!');
 		$this->template->output('home/index', ['heading' => 'Congratulations, it worked!']);
 	}
 }
