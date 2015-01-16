@@ -5,6 +5,7 @@ namespace werx\Skeleton\Controllers;
 use Illuminate\Database\Capsule\Manager as Model;
 use werx\Core\Controller;
 use werx\Core\Database as DB;
+use werx\Messages\Messages;
 
 class Home extends Controller
 {
@@ -20,7 +21,10 @@ class Home extends Controller
 		
 		// Load our primary config file.
 		$this->config->load('config');
-		
+
+		// Load the messages library, passing in an instance of the session.
+		Messages::getInstance($this->session);
+
 		// And our database config file.
 		#$this->config->load('database');
 		
