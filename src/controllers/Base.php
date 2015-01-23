@@ -7,7 +7,7 @@ use werx\Core\Controller;
 use werx\Core\Database as DB;
 use werx\Messages\Messages;
 
-class Common extends Controller
+class Base extends Controller
 {
     public function __construct()
     {
