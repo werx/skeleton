@@ -22,10 +22,10 @@
 	},
 	"require": {
 		"php": ">= 5.4",
-		"werx/core": "1.*",
-		"werx/validation": "1.*",
-        "werx/forms": "1.*",
-	  	"werx/messages": "1.*"
+		"werx/core": "~1.5",
+		"werx/validation": "~1.0",
+        "werx/forms": "~1.0",
+	  	"werx/messages": "~1.0"
 	},
 
 	"require-dev": {
