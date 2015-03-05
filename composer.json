@@ -25,7 +25,8 @@
 		"werx/core": "~1.5",
 		"werx/validation": "~1.0",
         "werx/forms": "~1.0",
-	  	"werx/messages": "~1.0"
+	  	"werx/messages": "~1.0",
+		"filp/whoops": "~1.2@dev"
 	},
 
 	"require-dev": {

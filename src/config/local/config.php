@@ -1,6 +1,4 @@
 <?php
 
-# Add any environment-specifc overrides here.
-return array(
-	
-);
+# Add any environment-specific overrides here.
+return ['debug' => true];
