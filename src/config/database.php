@@ -1,18 +1,15 @@
 <?php
 
-/*
-# You can define a PEAR-style DSN string when using mysql:
-return [
-	'dsn' => 'mysql://root:root@localhost/werx',
-];
-*/
+# Database connection options. Uncomment the version you want to use and modify it for your environment.
 
-# SQLite - using array of keys.
+## Option 1: Simple PEAR-style DSN DSN string for MySQL:
+#return ['default' => 'mysql://username:password@host/database'];
 
-/*
+## Option 2: Using array of keys for MySQL:
+
 # Keys needed:
-
-$defaults = [
+/*
+$settings = [
 	'driver'	=> 'mysql',
 	'host'		=> 'localhost',
 	'database'	=> 'mysql',
@@ -22,11 +19,17 @@ $defaults = [
 	'collation'	=> 'utf8_unicode_ci',
 	'prefix'	=> null
 ];
-# Any keys not provided in the dsn parameter below will default to the value shown above.
+
+return ['default' => $settings];
 */
+
+
+# Option 3: Array of keys for SQLite connection.
+/*
 return [
-	'dsn' => [
+	'default' => [
 		'driver' => 'sqlite',
-		'database' => dirname(__DIR__) . '/storage/example.sqlite',
-	],
+		'database' => dirname(__DIR__) . '/storage/example.sqlite'
+	]
 ];
+*/
