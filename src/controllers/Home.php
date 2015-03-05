@@ -2,9 +2,6 @@
 
 namespace werx\Skeleton\Controllers;
 
-use Illuminate\Database\Capsule\Manager as Model;
-use werx\Core\Controller;
-use werx\Core\Database as DB;
 use werx\Messages\Messages;
 
 class Home extends Base
